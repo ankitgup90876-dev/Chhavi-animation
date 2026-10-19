@@ -1,0 +1,10 @@
+<!doctype html><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For Chhavi ✨</title>
+<style>
+*{box-sizing:border-box}body{margin:0;height:100vh;display:grid;place-items:center;overflow:hidden;background:radial-gradient(circle,#28123f,#07050b 70%);color:#fff;font:18px Arial;text-align:center}.box{padding:28px}h1{font-size:64px;margin:12px;background:linear-gradient(90deg,#fff,#d8a5ff,#fff);-webkit-background-clip:text;color:transparent;background-size:200%;animation:s 3s linear infinite}.m{max-width:430px;line-height:1.6}.b{margin-top:20px;padding:12px 24px;border:1px solid #d8a5ff;border-radius:30px;background:transparent;color:#fff;font-size:16px}@keyframes s{to{background-position:200%}}.p{position:absolute;animation:r 6s linear infinite;opacity:.7}@keyframes r{from{transform:translateY(110vh)}to{transform:translateY(-10vh);opacity:0}}
+</style>
+<div class="box"><div>✨ Someone made this for you...</div><h1>Chhavi</h1><div class="m" id="m"></div><button class="b" onclick="m.innerHTML='Bas itna kehna tha... tumhari smile kaafi achhi hai. 😊✨'">Tap for a surprise ✨</button></div>
+<script>
+let t='Kuch log bina kisi special reason ke bhi special lagte hain... ✨',i=0;function x(){if(i<t.length){m.innerHTML+=t[i++];setTimeout(x,45)}}x();
+setInterval(()=>{let p=document.createElement('div');p.className='p';p.textContent=Math.random()>.5?'♡':'✦';p.style.left=Math.random()*100+'vw';document.body.append(p);setTimeout(()=>p.remove(),6000)},500)
+</script>
